@@ -13,4 +13,4 @@ for i in range(len(neme_list)) :
 people = [' '.join([neme_list[i],age_list[i]])
           for i in range(len(neme_list))]
 people = ' '.join(people)
-print('\nИменниники ',people)
+print('\nИмениники ',people)
