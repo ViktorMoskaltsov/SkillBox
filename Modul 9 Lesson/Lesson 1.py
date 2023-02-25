@@ -11,11 +11,10 @@ def print_dir (project) :
 
 
 
-project_py = 'Python_Basic'
+project_py = 'SkillBox'
 
 
 path_project = os.path.abspath(os.path.join('..','..',project_py))
 print_dir(path_project)
-
 
 
