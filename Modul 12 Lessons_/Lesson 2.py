@@ -18,7 +18,7 @@ class Point :
         if isinstance(self.__x,int):
             self.__x = x
         else:
-            raise Exception('Координата ч не является числом ')
+            raise Exception('Координата х не является числом ')
     def set_y(self,y):
         if isinstance(self.__y,int):
             self.__y = y
